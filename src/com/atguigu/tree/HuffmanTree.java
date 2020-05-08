@@ -88,6 +88,7 @@ public class HuffmanTree {
 // 为了让Node对象在集合或者数组中支持排序，需实现Comparable接口
 class Node implements Comparable<Node> {
     int value; // 结点权值
+    char c;  // 结点的字符
     Node left; // 指向左子结点
     Node right; // 指向右子结点
 
